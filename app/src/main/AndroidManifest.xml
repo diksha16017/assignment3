@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajay.datahandle" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataActivity1"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_data_activity1" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".AddSpecialEvent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_special_event" >
+        </activity>
+        <activity
+            android:name=".RemoveSpecialEvent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_remove_special_event" >
+        </activity>
+        <activity
+            android:name=".UpdateSpecialEvent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_update_special_event" >
+        </activity>
+        <activity
+            android:name=".AddTODOList"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_todolist" >
+        </activity>
+        <activity
+            android:name=".ShowAllSpecialDates"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_show_all_special_dates" >
+        </activity>
+        <activity
+            android:name=".ReadMeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_read_me" >
+        </activity>
+    </application>
+
+</manifest>

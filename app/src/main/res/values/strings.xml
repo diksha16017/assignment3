@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UrMemento</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_data_activity1">DataActivity1</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_special_event">AddSpecialEvent</string>
+    <string name="title_activity_remove_special_event">RemoveSpecialEvent</string>
+    <string name="title_activity_update_special_event">UpdateSpecialEvent</string>
+    <string name="title_activity_add_todolist">AddTODOList</string>
+    <string name="title_activity_show_all_special_dates">ShowAllSpecialDates</string>
+    <string name="title_activity_read_me">ReadMeActivity</string>
+</resources>
